@@ -1,0 +1,60 @@
+.container{
+  width: 500px;
+}
+
+#list {
+
+  list-style: none;
+}
+
+.list-container{list-style-type: none;
+background: blueviolet;} 
+
+.list-container{
+  background: #f1f1f1;
+}
+
+.list-container>li{
+  width: fit-content;
+}
+
+.list-container>li:hover
+{
+background: rgb(143, 25, 25);
+color: white;
+
+
+}
+
+.paragraph::first-letter{
+  font-size: 30px
+}
+
+.list-span-container > li > span:hover{
+  background-color: aqua;
+  color: blue;
+}
+
+.parent{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  /*overflow: auto;*/
+  border: 4px solid rgb(119, 119, 175);
+  /*padding: 10px;*/
+  overflow: hidden;
+
+}
+ .box{
+    width: 100%;
+    height: 200px;
+    background: rgb(140, 163, 177);
+    margin:20px;
+  }
+
+  @media screen and (max-width: 640px){
+
+    .parent{
+      flex-direction:column;
+    }
+  }
